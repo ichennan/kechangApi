@@ -17,6 +17,7 @@
     <properties>
         <java.version>1.8</java.version>
         <version.hutool>5.4.1</version.hutool>
+        <version.java-jwt>3.10.3</version.java-jwt>
     </properties>
 
     <dependencies>
@@ -66,6 +67,11 @@
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-all</artifactId>
             <version>${version.hutool}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.auth0</groupId>
+            <artifactId>java-jwt</artifactId>
+            <version>${version.java-jwt}</version>
         </dependency>
     </dependencies>
 

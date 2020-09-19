@@ -12,3 +12,14 @@ spring:
     password: error
     url: error
     driver-class-name: com.mysql.cj.jdbc.Driver
+jwt:
+  token-name: Authorization
+  secret: xxxSecretxxx43
+  expiration: 31104000
+  route:
+    authentication:
+      path: auth
+      refresh: refresh
+wechat:
+  weapp-appId: wxa3445fc7b00904ee
+  weapp-appSecret: f162f9b987e1363a2fc3d0c2eeb8cc26
